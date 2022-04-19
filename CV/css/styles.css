@@ -1,27 +1,51 @@
 body {
-    background-color: #F7F5F2;
+    background-color: white;
     margin: 0;
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', tahoma, verdana, serif;
+    text-align: center;
 }
 
 h1{
     margin-top:0;
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#66BFBF;
+    font-weight: normal;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
+}
+
+span{
+    text-decoration: underline;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #C8E6E6;
+    border-width: 10px;
+    width: 10%;
+}
+
+.profile {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
 }
 
 .top-container {
     position: relative;
-    background-color: #F7E9D7;
+    background-color: #EAF6F6;
     padding: 20px;
-    text-align: center;
 }
 
 .top-cloud{
@@ -33,17 +57,65 @@ h3 {
 .bottom-cloud{
     position: absolute;
     left: 300px;
-    bottom: 50px;
+    bottom: 300px;
 }
 
-.middle-container {
-    background-color:blue;
-    height:200px;
-    width: 200px;
+.img-profile{
+    margin: 20px 0 20px 0;
+    border-radius: 500px;
 }
 
-.bottom-container {
-    background-color:red;
-    height:200px;
-    width: 200px;
+.img-machine-learning{
+    border-radius: 500px;
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.img-programming {
+    border-radius: 500px;
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.btn{
+    line-height: 10;
+    border-radius: 8px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(#11cdd4, #11999e);
+}
+
+.btn:hover{
+    background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.bottom-container{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #66BFBF;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #11999E;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    margin-top: 50px;
 }
