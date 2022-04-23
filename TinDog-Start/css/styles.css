@@ -1,0 +1,162 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#cta {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color: white;
+}
+
+#footer {
+    padding: 7% 15%;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p {
+    color: gray;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+/*Navigation Bar*/
+
+.navbar-brand {
+    font-family: 'Ubuntu', san-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.navbar {
+    padding: 0 0 4.5em;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+/*Download Button*/
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+.title-image {
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        width: 60%;
+        position: static;
+        margin: auto;
+        padding-top: 10%;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/*Features*/
+.fa-features {
+    color: #ef8172;
+    padding-bottom: 20px;
+    margin: 0 auto 0 auto;
+}
+
+.fa-features:hover {
+    color: #ff4c68;
+}
+
+.features-p {
+    padding: 0 10% 0 10%;
+}
+
+/*Testimonials*/
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*Pricing*/
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/*CTA*/
+.cta-title {
+    padding: 3%;
+    line-height: 1.5;
+}
